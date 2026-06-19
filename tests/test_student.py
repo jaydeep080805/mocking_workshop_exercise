@@ -8,6 +8,12 @@ def test_student_initialisation():
     assert student.submissions == []
     assert len(student.submissions) == 0
 
+def test_get_name():
+    student = Student("jay")
+
+    assert student.get_name() == "jay"
+
+
 def test_add_submission():
     student = Student("jay")
 

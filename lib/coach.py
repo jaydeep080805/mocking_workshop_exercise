@@ -5,7 +5,7 @@ class Coach:
 
     def add_student(self, student):
         # TODO this will be implemented after the student class is created 
-        # if not isinstance(student, Student):
+        # if isinstance(student, Student):
         #     return TypeError("Not a student")
         
         self.students.append(student)

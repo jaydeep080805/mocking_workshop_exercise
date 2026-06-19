@@ -3,6 +3,9 @@ class Student:
         self.name = name
         self.submissions = []
 
+    def get_name(self):
+        return self.name
+
     def add_submission(self, submission):
         self.submissions.append(submission)
 
